@@ -1,14 +1,38 @@
 <!--Evhenii Korchemnyi-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
-</head>
-<body>
-    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
-</body>
-</html>
+<div>
+    <p>Ice cream tastes</p>
+    <h2>Select Your Favorite Taste</h2>
+    <p>From strawberry to coconut, we have them all!</p>
+    <div class="carousel">
+        <div class="carousel__track-container">
+          <ul class="carousel__track">
+            <li class="carousel__slide">
+              <img src="img/strawberry.png" alt="strawberry gem" class="carousel__image">
+            </li>
+            <li class="carousel__slide">
+              <img src="img/choco.png" alt="choco-hazelnut" class="carousel__image">
+            </li>
+            <li class="carousel__slide">
+              <img src="img/blue.png" alt="blue-paradise" class="carousel__image">
+              <li class="carousel__slide">
+                <img src="img/mango.png" alt="mango-dreams" class="carousel__image">
+              </li>
+              <li class="carousel__slide">
+                <img src="img/phistachio.png" alt="phistachio-heaven" class="carousel__image">
+              </li>
+            </li>
+          </ul>
+        </div>
+    
+        <button class="carousel__button carousel__button--left" type="button">←</button>
+        <button class="carousel__button carousel__button--right" type="button">→</button>
+    
+        <div class="carousel__nav">
+          <button class="carousel__indicator carousel__indicator--active" type="button" data-slide-to="0"></button>
+          <button class="carousel__indicator" type="button" data-slide-to="1"></button>
+          <button class="carousel__indicator" type="button" data-slide-to="2"></button>
+        </div>
+      </div>
+    
+    
+</div>
